@@ -2,33 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-          crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
 
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
-            <nav class="navbar navbar-expand-md
-                    justify-content-start
-                    bg-dark navbar-dark
-                    col-12">
+            <nav class="navbar2">
 
-                <!-- Brand -->
-                <a class="navbar-brand" href="#">Logo</a>
-                <!-- Responsive Button for the smaller menu -->
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <a class="navbar" href="#">Logo</a>
+                <button class="navbar" type="button"
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               
                     <ul class="navbar-nav">
-                        <!-- Links -->
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link 1</a>
                         </li>
@@ -39,25 +26,14 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
 
-                        <!-- Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Education
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown">
                             </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                                <a class="dropdown-item" href="#">Link 4</a>
-                            </div>
                         </li>
                     </ul>
                 </div>
             </nav>
-        <div class="container">
-          <div class="row">
-            <form action="">
                 <div class="form-group">
                     <label for="firstname">First Name:</label>
                     <input type="text" class="form-control" id="firstname"
@@ -79,7 +55,7 @@
                                type="checkbox" name="subscribe"> Subscribe
                     </label>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="submit">Submit</button>
             </form>
         </row>
 </div>
@@ -87,18 +63,12 @@
  <footer class="footer page-footer font-small ">
      <div class="container">
         <div class="row">
-            <span class="text-muted">&copy; Emily Fuentes Nov.26, 2024 |  Terms Of Use  |  Privacy Statement</span>
+            <span>&copy; Emily Fuentes Nov.26, 2024 |  Terms Of Use  |  Privacy Statement</span>
         </div>
      </div>
   </footer>
 </div>
 
-
-    <!-- Javascript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-</script>
 
 </body>
 </html>
