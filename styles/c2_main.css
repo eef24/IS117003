@@ -60,7 +60,6 @@ main {
 }
 
 
-/* Second Navigation Bar (center) */
 .navbar-second {
     background-color: #333;
     padding: 10px;
@@ -94,7 +93,7 @@ main {
 }
 
 .navbar-second ul li {
-    position: relative; /* Needed for dropdown positioning */
+    position: relative; 
 }
 
 .navbar-second a {
@@ -104,11 +103,10 @@ main {
     display: block;
 }
 
-/* Dropdown styles */
 .navbar-second .dropdown-menu {
-    display: none; /* Hide the dropdown by default */
+    display: none; 
     position: absolute;
-    top: 100%; /* Position the dropdown below the parent item */
+    top: 100%; 
     left: 0;
     background-color: #333;
     min-width: 160px;
@@ -164,19 +162,16 @@ ul.image-list li img {
     border-radius: 8px; 
 }
 
-/* Caption Styling */
 ul.image-list .caption {
     color: white; 
     font-size: 16px; 
     margin: 10px 0; 
 }
 
-/* Special styling for the sale text */
 ul.image-list .sale {
     color: red; 
 }
 
-/* Style for the unordered list inside the details section */
 ul.image-list .details-list ul {
     list-style-type: disc; 
     padding-left: 20px; 
@@ -189,7 +184,6 @@ ul.image-list .details-list ul li {
 }
 
 
-/* Footer styles */
 footer {
     background-color: #333;
     color: white;
@@ -222,7 +216,6 @@ header {
 }
 
 
-/* Contact Form Section */
 .contact-form {
     max-width: 900px;
     margin: 20px auto;
@@ -269,16 +262,13 @@ header {
     background-color: #0056b3;
 }
 
-/* styles.css */
 
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Container that holds the three elements */
 .container {
     display: flex;               
     justify-content: space-between; 
@@ -287,14 +277,12 @@ header {
     padding: 20px;               
 }
 
-/* Style the left image */
 .left img {
     max-width: 100%; 
     height: auto;     
     max-height: 200px; 
 }
 
-/* Style the center text */
 .center {
     text-align: center; 
     max-width: 600px;  
@@ -306,7 +294,6 @@ header {
     color: #333;        
 }
 
-/* Style the right image */
 .right img {
     max-width: 100%;
     height: auto;     
@@ -314,7 +301,6 @@ header {
 }
 
 
-/* styles.css */
 
 /* Basic reset */
 * {
@@ -323,7 +309,6 @@ header {
     box-sizing: border-box;
 }
 
-/* Container that holds the three elements */
 .container {
     display: flex;               
     justify-content: space-between; 
@@ -332,14 +317,12 @@ header {
     padding: 20px;               
 }
 
-/* Style the left image */
 .left img {
     max-width: 100%;  
     height: auto;
     max-height: 200px; 
 }
 
-/* Style the center text */
 .center {
     text-align: center; 
     max-width: 600px;   
@@ -351,15 +334,11 @@ header {
     color: #333;        
 }
 
-/* Style the right image */
 .right img {
     max-width: 100%;  
     height: auto;     
     max-height: 200px; 
 }
-
-
-
 
 
 @media screen and (max-width: 768px) {
