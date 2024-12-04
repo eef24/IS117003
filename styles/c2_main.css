@@ -123,7 +123,6 @@ main {
     white-space: nowrap;
 }
 
-/* Optional hover effect for dropdown items */
 .navbar-second .dropdown-menu li a:hover {
     background-color: #575757;
 }
@@ -143,7 +142,6 @@ ul.image-list {
     text-align: center; 
 }
 
-/* Style the individual list items */
 ul.image-list li {
     display: flex;
     flex-direction: column; 
@@ -302,7 +300,6 @@ header {
 
 
 
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
